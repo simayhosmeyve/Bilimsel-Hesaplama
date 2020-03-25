@@ -12,7 +12,7 @@ print(e)
 #Decimal modülü kullanarak
 from decimal import *
 getcontext().prec = 17
-#17 basamağa kadar hassasiyet belirledik
+#Virgülden sonraki 16 basamağa kadar hassasiyet belirledik
 n,e,e1 = 0,1,0
 while(e!=e1):
     e = e1
